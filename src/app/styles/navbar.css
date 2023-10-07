@@ -1,0 +1,45 @@
+header {
+    width: 100%;
+    background-color: fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.465);
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+  }
+  .heading {
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+  }
+  header ul a {
+    margin: 0 15px;
+  }
+  header ul .nav-btn {
+    padding: 10px 5px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+  }
+  header ul .nav-btn-link{
+    color: black;
+  } 
+  .heading span{
+    background-color:#0275d8;
+    color: white;
+  }
+  header ul{
+    display: flex;
+    align-items: center;
+  }
+  .ul-link{
+    margin-right: 50px;
+  }
+  

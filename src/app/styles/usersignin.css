@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  /* z-index: 100000; */
+  /* text-decoration: none; */
+}
+/* body{
+  font-size: 62.5%;
+} */
+.signin-main {
+  width: 100%;
+  height: 100vh;
+  /* background:linear-gradient(180deg,	#FF00FF, ); */
+  /* background: linear-gradient(180deg,#c49ee9, #27187d); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+.signin-left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.signin-left h1 {
+  font-size: 2.2rem;
+  /* color: #fff; */
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+.signin-left p {
+  /* color: #fff; */
+  text-align: center;
+  width: 52%;
+  font-size: 0.8rem;
+}
+.signin-main .signin-left img {
+  width: 72%;
+  height: 72vh;
+  /* //ite a expeiment */
+  /* filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.35)); */
+}
+.signin-right {
+  margin-right: 5rem;
+  width: 30%;
+  height: 90vh;
+  background-color: rgba(255, 255, 255, 0.909);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  z-index: 100000;
+  /* box-shadow: 10px 10px 10px 10px rgb(0, 0, 0,0.465); */
+  /* box-shadow: 0px 4px 20px 10px rgb(0, 0, 0, 0.465); */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.signin-right .signin-heading {
+  /* height: 15vh;
+  /* border: 2px solid black; */
+  /* text-align: center;
+  margin-top: -68px;  */
+  height: 12vh;
+    /* border: 2px solid black; */
+    text-align: center;
+    margin-top: 20px;
+}
+.signin-right .signin-heading h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+  /* color: #720e9e; */
+}
+.signin-right .signin-heading p {
+  font-size: 0.7rem;
+  color: #720e9e;
+  width: 80%;
+  margin: auto;
+}
+.signin-right .signin-formarea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 54vh;
+  /* border: 1px solid; */
+}
+.signin-right .form {
+  width: 80%;
+  display: flex;
+  /* border: 2px solid red; */
+  flex-direction: column;
+  /* margin: 10px 0; */
+}
+.signin-right .signin-formarea .form .input,.select ,.upload {
+  padding: 9px 9px;
+  margin: 6px 0;
+  background: transparent;
+  border: 0.5px solid #7774778c;
+  font-size: 0.8rem;
+  width: 100%;
+  border-radius: 4px;
+  color: gray;
+}
+.signin-right .signin-formarea .form .select ,.upload {
+    padding: 5px 5px;
+    margin: 6px 0;
+    background: transparent;
+    border: 0.5px solid #7774778c;
+    font-size: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    color: gray;
+}
+.signin-right .signin-formarea .form a {
+  text-align: right;
+  padding: 12px;
+  font-size: 0.7rem;
+}
+.signin-right .signin-formarea .form .signin-btn {
+  width: fit-content;
+  padding: 7px 25px;
+  margin:10px auto;
+  border: none;
+  transition: all 0.5s;
+  border-radius: 5px;
+  /* background: linear-gradient(328deg, #3820cf, #be05ef); */
+  background-color: #0275d8
+  ;
+  color: white;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+.signin-main .signin-last {
+  text-align: center;
+  margin: -30px 0;
+
+}
+.signin-main .signin-last p {
+    font-size: 10px;
+    margin: 5px;
+}
+.signin-main .signin-last a {
+  font-size: 13px;
+}
+.hr-line {
+  width: 70%;
+  margin: auto;
+}
+.p-input{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+.signin-p-input p{
+  /* fontSize: "0.6rem",
+  margin: "0 10px",
+  color: "red", */
+  font-size: 0.6rem;
+  margin: 10px 0;
+  color: red;
+
+}
+.signin-last-link{
+    margin: 0 5px;
+    color: black;
+    font-size: 0.6rem;
+}

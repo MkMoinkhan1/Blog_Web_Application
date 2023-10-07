@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+@import '../src/app/styles/bloghomepage.css';
+@import '../src/app/styles/navbar.css';
+@import '../src/app/styles/usersignin.css';
+@import '../src/app/styles/usersignup.css';
+@import '../src/app//styles/blogdetaild.css'

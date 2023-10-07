@@ -1,0 +1,121 @@
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  section .center {
+    width: 90%;
+    height: 100%;
+    padding: 3rem 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  section .center .textcontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+  }
+  section .center .textcontent .blog-btn {
+    padding: 10px 28px;
+    background-color: #044cd0;
+    border: 1px solid;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }section .center .textcontent .blog-btn:hover{
+    background-color: #003392;
+  }
+  section .center .textcontent h1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  section .blog-card {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  section .card-info {
+    width: 18rem;
+    height: 22rem;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 2px;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.465);
+    margin: 20px;
+    overflow: hidden;
+  }
+  section .card-info:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .card-info-imgg{
+    overflow: hidden;
+  }
+  .card-info img {
+    width: 100%;
+    object-fit: cover;
+    height: 30vh;
+    /* display: flex; */
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+  .card-info img:hover{
+    scale: 1.2;
+    transition: all 0.5s;
+  }
+  .text .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+  }
+  .text .head p{
+    font-size: 0.6rem;
+    color: gray;
+    width: 70px;
+  }
+  .text .head h1{
+    font-size:1rem ;
+    color: black;
+  
+  }
+  .blog-btn-link{
+    text-decoration: none;
+    color: white;
+  }
+  .text .para {
+    padding: 5px;
+    overflow: hidden;
+    /* margin: 5px 0; */
+    font-size: 0.7rem;
+    /* border: 1px solid; */
+    width: 100%;
+    height: 15vh;
+    margin-top: -10px;
+    color: gray;
+  }
+  .text .foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+  }
+  .text .foot h4{
+    font-size: 0.8rem;
+    color: black;
+  }
+  .text .foot p i{
+    color: black;
+    margin: 0 12px;
+  }
+  .blog-home-link{
+    text-decoration: none;
+  }
